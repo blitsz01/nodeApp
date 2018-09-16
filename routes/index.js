@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
     if (err) throw err;
     res.render('about', {
       layout: 'layoutPrivate',
-      title: "About",
+      title: "Dev Profile",
       user: req.user,
       myInfo: JSON.parse(data)
     });
@@ -66,7 +66,7 @@ router.get('/contact', function (req, res, next) {
     if (err) throw err;
     res.render('contactinfo', {
       layout: 'layoutPrivate',
-      title: "Code Architecture",
+      title: "Contact Info",
       user: req.user,
       myInfo: JSON.parse(data)
     });

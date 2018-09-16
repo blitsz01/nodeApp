@@ -5,7 +5,7 @@ var passport = require('passport');
 //Render Login Page
 router.get('/', function (req, res) {
     if (!req.isAuthenticated())
-        res.render('login', {title: "Login Page : "});
+        res.render('login', {title: "Login Page"});
     else
         res.redirect('/resume');
 });
