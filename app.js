@@ -20,8 +20,8 @@ passport.deserializeUser(function (obj, done) {
 });
 
 passport.use(new GoogleStrategy({
-  clientID: 'Put your Google client Id here',
-  clientSecret: 'yourClientId',
+  clientID: 'yourClientId',
+  clientSecret: 'yourClientSecret',
   callbackURL: 'http://localhost:3000/auth/google/callback'
 },
   function (accessToken, refreshToken, profile, done) {
