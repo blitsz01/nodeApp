@@ -1,0 +1,9 @@
+{
+    "summary": "In my own opinion a high quality code should be define by its maintainability, readability, modularity and efficiency",
+    "codeArchitecture": {
+        "maintainability": "Maintainability - This attribute measures the ease with which your code can be upgraded/altered over time without introducing new bugs.",
+        "readability": "Readability - We can define readable code as being easy to understand or follow logically. One example is to properly naming our variables and make sure to follow the coding standard set by the frameworks you are using.",
+        "modularity": "Modularity - Measure of how independent your code from each function. For example if theres a changes in specific area of your module, it should not trigger an effect or error from other parts of the code that does not required changes.",
+        "efficiency": "Efficiency - Is like attempting to solve something for the sake of the code to work and produce the desired output, we ended up compromising other things like speed processing of data or error prone codes. I have recently encountered a module created by my co-developer which when you look at his he wanted a synchronized processing of his function and ended up using seTimeout just to produced the desired output. In code level, what he did is correct but in the long run if everytime we encounter the same problem in the future it will ended up to be a slow or bug-prone codes. Because if we are working with restful services we dont when our network would slow down. So in any event that the network cannot respond and time asynchronous processing in javascript will surely eat up the time you set on your function. In the end I ended up refactoring his code from start using chain promises. To make sure it will process the data synchronously."
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"firstName": "Jonathan",
+	"lastName": "Riano",
+	"position": "Software Engineer / Consultant",
+	"email": "blitsz01@yahoo.com",
+	"linkFacebook": "https://www.facebook.com/blitsz01",
+	"contactNumber": "Japan 080-3082-5258",
+	"skype": "live:blitsz01",
+	"linkTemplate": "https://startbootstrap.com/template-overviews/resume/",
+	"summary": "Software Engineer with thorough hands-on experience in all cycle of software development, from code design, object modeling, use case design, coding, unit testing to end-user training. Experienced in Back-end and Front-End web development as well as creating API services to be deploy in Cloud. I'm one of the Filipino deployed here in Japan who is rewarded to be a regular employee in less than a year because of the good feedback from their clients. Currently involve as lead programmer in a 4-member group, in creating prototype web app that will act as Middleware App for Oracle Cloud Services using Node.js as Back-End and Oracle-Jet Template that is a combination of ReactJs, Knockout, and JQuery as front-end. Can work in any javascript framework regardless of what framework will be using as long as we do understand the fundamentals of programming like understanding callbacks, promises, JSON, Rest API and how to handle browser compatibility, code maintainability, security, efficiency, Im sure that everything will be on its proper direction."
+}

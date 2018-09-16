@@ -1,0 +1,37 @@
+<script src="/javascripts/getTriangle.js"></script>
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="triangle">
+    <div class="my-auto">
+        <h3 class="mb-5">Triangle</h3>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <div class="subheading mb-3">Please input triangle's side length : </div>
+                <form name="mytriangle" novalidate>
+                    <div class="form-group">
+                        <label for="firstSide">First Side:</label>
+                        <input type="number" class="form-control" id="firstSide" name="firstSide" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="secondSide">Second Side:</label>
+                        <input type="number" class="form-control" id="secondSide" name="secondSide" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="thirdSide">Third Side:</label>
+                        <input type="number" class="form-control" id="thirdSide" name="thirdSide" required>
+                    </div>
+                    <br>
+                    <button type="button" onclick="getTriangle()">
+                        Check
+                    </button>
+                    <br>
+
+                </form>
+            </div>
+            <div style="float:right">
+                <span>
+                    <img id="idImage" src="" alt="">
+                </span>
+                <h5 id="result"></h5>
+            </div>
+        </div>
+    </div>
+</section>
